@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeff1;
+        }
+        header {
+            background-color: #2ecdd8;
+            color: rgb(8, 8, 8);
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            float: left;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #fcf8f8;
+            color: rgb(12, 173, 39);
+        }
+        section { 
+            color: rgb(12, 12, 12);
+            padding: 30px;
+            margin: 20px;
+            background-color: rgb(106, 209, 235);
+            border-radius: 8px;
+            box-shadow: 0 8px 8px rgba(19, 17, 17, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .projects img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>DREAMERS STUDIO</h1>
+        <p> <b>Welcome to our Portfolio</p>
+    </header>
+    
+    <nav>
+        <a href="#about">About us</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>ABOUT US</h2>
+            
+            <p>Hello! We're dreamers studio, passionate designers. we specialize in creating beautiful, responsive graphics.We love working with collaborative space to build unique experiences.</p>
+        </section>
+        <section id="Skills">
+            <h2>SERVICES WE OFFER:</h2>
+            <ul type="circle">
+                <li>Music production</li> <br>
+                <image src="images (15).jpeg" </image><br>
+                <li>Art classes</li><br>
+                <image src="images (2).jpeg" <br>
+                <li>dance workshops</li><br>
+                <image src="images (4).jpeg"> <br></image>
+                <li>Photography</li><br>
+                <image src="images (5).jpeg" <br>
+                <li>Jersey printing</li><br>
+                <image src="images (7).jpeg"<br>
+                <li>Graphics and Design</li><br>
+                <image src="images (9).jpeg"<br>
+                <li>Computer classes</li><br>
+                <image src="images (11).jpeg"
+            </ul>
+</section>
+        <section id="contact" class="contact-form">
+            <h2>Contact us</h2>
+            <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" required></textarea>
+
+                <button type="submit" >Send Message</button>
+            </form> <br>
+            <a href="homepage.html">BACK TO HOMEPAGE</a>
+             </a>   
+            
+        </section>
+    </div>
+</body>
+</html>
+
+
